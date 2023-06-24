@@ -65,12 +65,12 @@ Application will run on port `8081`
 Configure the port by changing `server.port` in __application.properties__
 
 ## Testing
-http://localhost:8081/notices : should display response "Here are the notices details from DB"
-http://localhost:8081/contact : should display response "Inquiry details are saved to DB"
-http://localhost:8081/myAccount : Should redirect to login page
-http://localhost:8081/myCards : Should redirect to login page
-http://localhost:8081/myLoans : Should redirect to login page
-http://localhost:8081/myBalance : Should redirect to login page
+* http://localhost:8081/notices : should display response "Here are the notices details from DB"
+* http://localhost:8081/contact : should display response "Inquiry details are saved to DB"
+* http://localhost:8081/myAccount : Should redirect to login page
+* http://localhost:8081/myCards : Should redirect to login page
+* http://localhost:8081/myLoans : Should redirect to login page
+* http://localhost:8081/myBalance : Should redirect to login page
 
 
 ## API
