@@ -16,6 +16,12 @@ public class ProjectSecurityConfig {
         /*http.authorizeHttpRequests(authorize ->
                         authorize.anyRequest().denyAll())
                 .formLogin(Customizer.withDefaults())
+                .httpBasic(Customizer.withDefaults());
+
+        ####### permitAll ###########
+        http.authorizeHttpRequests(authorize ->
+                        authorize.anyRequest().permitAll())
+                .formLogin(Customizer.withDefaults())
                 .httpBasic(Customizer.withDefaults());*/
 
         http.authorizeHttpRequests(authorize ->
