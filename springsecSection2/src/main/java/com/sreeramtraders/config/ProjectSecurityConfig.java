@@ -12,6 +12,12 @@ public class ProjectSecurityConfig {
     @Bean
     SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
 
+        //Just for Knowledge: To deny all requests use denyAll(): Its not production recommended.
+        /*http.authorizeHttpRequests(authorize ->
+                        authorize.anyRequest().denyAll())
+                .formLogin(Customizer.withDefaults())
+                .httpBasic(Customizer.withDefaults());*/
+
         http.authorizeHttpRequests(authorize ->
                 authorize.requestMatchers("/myAccount","/myBalance","/myLoans","/myCards").authenticated()
                         .requestMatchers("/notices","/contact").permitAll())
