@@ -11,7 +11,6 @@
 - [Features](#features)
 - [Requirements](#requirements)
 - [Quick Start](#quick-start)
-- [Run Local](#Run Local)
 - [Testing](#testing)
 - [API](#requirements)
 
@@ -38,6 +37,7 @@ Starting from Spring Security 6.1 and Spring Boot 3.1.0 versions, the Spring Sec
     .permitAll()
     )
     .rememberMe(Customizer.withDefaults());`
+
 **Equivalent configuration without using lambdas**
 `http
     .authorizeHttpRequests()
@@ -57,7 +57,7 @@ The required technologies are : Java20, Intellij, Springboot 3.0.6, Spring 6.0.8
 ## Quick Start
 After importing this project into IDE, Please check the Project jdk setup, maven and build the project.
 
-### Run Local
+## Run Local
 Run / Debug the EazyBankBackendApplication and check the URLs
 
 Application will run on port `8081`
