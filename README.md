@@ -1,7 +1,7 @@
 <h1 align="center"> Spring Security example collection </h1> <br>
 
 <p align="center">
-  Spring Security Collection
+  Spring Security example Collection
 </p>
 
 
